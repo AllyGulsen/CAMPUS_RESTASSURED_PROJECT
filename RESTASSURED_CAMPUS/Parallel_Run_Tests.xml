@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="4">
+    <listeners>
+        <listener class-name="LISTENER.Listener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="ApiTest">
+        <classes>
+            <class name="Attestation"></class>
+            <class name="Bank"></class>
+            <class name="Departments"></class>
+            <class name="Discount"></class>
+            <class name="DocumentTypes"></class>
+            <class name="Fields"></class>
+            <class name="GradeLevels"></class>
+            <class name="Nationality"></class>
+            <class name="Positions"></class>
+            <class name="PositionCategories"></class>
+            <class name="SchoolLocations"></class>
+            <class name="SubjectCategories"></class>
+
+        </classes>
+    </test>
+</suite>
+

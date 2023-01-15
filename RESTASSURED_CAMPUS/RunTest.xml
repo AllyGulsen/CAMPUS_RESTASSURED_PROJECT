@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <listeners>
+        <listener class-name= "LISTENER.Listener"></listener>
+    </listeners>
+
+    <test name="Attestation Function Test">
+        <classes>
+            <class name="Attestation"></class>
+        </classes>
+    </test>
+
+    <test name="Bank Function Test">
+        <classes>
+            <class name="Bank"></class>
+        </classes>
+    </test>
+
+    <test name="Departments Function Test">
+        <classes>
+            <class name="Departments"></class>
+        </classes>
+    </test>
+
+    <test name="Discount Function Test">
+        <classes>
+            <class name="Discount"></class>
+        </classes>
+    </test>
+
+    <test name="DocumentTypes Function Test">
+        <classes>
+            <class name="DocumentTypes"></class>
+        </classes>
+    </test>
+
+    <test name="Fields Test">
+        <classes>
+            <class name="Fields"></class>
+        </classes>
+    </test>
+
+    <test name="GradeLevels Function Test">
+        <classes>
+            <class name="GradeLevels"></class>
+        </classes>
+    </test>
+
+    <test name="Nationality Function Test">
+        <classes>
+            <class name="Nationality"></class>
+        </classes>
+    </test>
+
+    <test name="PositionCategories Function Test">
+        <classes>
+            <class name="PositionCategories"></class>
+        </classes>
+    </test>
+
+    <test name="Positions Function Test">
+        <classes>
+            <class name="Positions"></class>
+        </classes>
+    </test>
+
+    <test name="SchoolLocations Function Test">
+        <classes>
+            <class name="SchoolLocations"></class>
+        </classes>
+    </test>
+
+    <test name="SubjectCategories Function Test">
+        <classes>
+            <class name="SubjectCategories"></class>
+        </classes>
+    </test>
+
+</suite>

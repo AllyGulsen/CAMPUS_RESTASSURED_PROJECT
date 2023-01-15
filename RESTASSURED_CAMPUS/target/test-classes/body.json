@@ -1,0 +1,9 @@
+{
+  "id": null,
+  "name": "schoolnme",
+  "code": "1909",
+  "active": true,
+  "school": {"id": "606df950d534514e5d99d287"},
+  "sections": [],
+  "constants": []
+}
